@@ -27,7 +27,7 @@ public class McmHttpApi {
    
    public static void main( String[] args ) {
       McmHttpApi api = new McmHttpApi();
-      api.sendMessage( "myusername", "mypassword", "mymessage", "mymsisdn", "mybody" );
+      api.sendMessage( "myusername", "mypassword", "myoriginator", "mymsisdn", "mybody" );
    }
    
    public void sendMessage( String username, String password, String originator, String msisdn, String body ) {
