@@ -1,6 +1,6 @@
 <?php
 
-send("myusername", "mypassword", "myoriginator", "mymsisdn", "mybody", false, null);
+send("myusername", "mypassword", "myoriginator", "mymsisdn", "mybody", "false", null);
 
 function send($username, $password, $originator, $msisdn, $body, $dlr, $ref) {
    $endpoint = "http://mcm.globalmouth.com:8080/api/mcm";
